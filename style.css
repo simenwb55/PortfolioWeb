@@ -1,10 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    background-color: yellow;
+    background-color: black;
 }
 .header{
     position: fixed;
@@ -99,6 +98,35 @@ body{
     padding:2rem;
     background: #1088A6;
     border-radius: 20px;
+}
+#skills-section{
+    padding:4rem 2rem;
+    margin: 0 auto;
+    background:#1088A6;
+    width: 750px;
+    height: 250px;
+    border-radius: 50px;
+    
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: 0 auto;
+    color: white;
+    border-radius:20px;
+    max-width: 800px;
+    align-items: center;
+}
+.skills-content{
+    padding: 40px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.card--subtitle{
+    font-size: 15px;
 }
 
 
