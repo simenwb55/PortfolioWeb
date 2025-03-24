@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: yellow;
 }
 .header{
     position: fixed;
@@ -100,6 +100,7 @@ body{
     background: #1088A6;
     border-radius: 20px;
 }
+
 
 
 
