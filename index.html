@@ -50,20 +50,20 @@
     <article class="skills-card">
             <div class="skills-content">
             <h1 class="card-title">Skills</h1> 
-                <ol class="card-subtitle">
+                <ul class="card-subtitle">
                     <li>
                 
                     UX- Tools 
                     (Figma and Figjam)</li>
                 
-                <li>Web-development
-                (HTMl,CSS,Javascript)</li>
+                <li><h1>Web-development</h1>
+                <p>(HTMl,CSS,Javascript)</p></li>
 
                 <li>Framework
                 (Tailwind,materiall ui,React)
                 I also have exsperience with Postman, Github. Figjam.
                 </li>
-                </ol>
+                </ul>
 
         </div>
     </article>
@@ -71,18 +71,16 @@
     <article class="skills-card">
             <div class="skills-content">
             <h1 class="card-title">Degree</h1>
-            <p class="card-subtitle">L2012-2015
-                VGS Studiespesialisering, Kristiansand Vennesla.
+            <ul class="card-subtitle">
+                <li>
+                <h1>2017-2020</h1>
+                <p>bachelor degree in entrepreneurship</p>
+                </li>
                 
-                Utdanning
-                2017-2020
-                Bachelor, Universitetet i Sørøst-Norge, Bø
-                Innovasjon og Entreprenørskap.
-                
-                2024 -2045
+                <li><h1>2024 -2025</h1>
                 UX design and web-development
-                Nye Høyskolen i Oslo (NHO)
-                </p>
+                </li>
+                </ul>
 
             </div>
     </article>
@@ -90,11 +88,25 @@
 
 
 </section>
-
-<section class="contact" id="contact">
-    <input type="email" placeholder="text">
-    <textarea name="" id=""></textarea>
-</section>
+    <form id="contactform" class="contact-form">
+        <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="text" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">message</label>
+                <textarea id="message"
+                name="message"required></textarea>
+                </div>
+            
+        
+    
+                <Button type="submit">Send message</Button>
+    </form>
     
 </body>
 </html>
