@@ -19,6 +19,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
+    background-color: black;
 }
 #Sublime-Logo{
     height: 4.5rem;
@@ -106,6 +107,7 @@ body{
     width: 750px;
     height: 250px;
     border-radius: 50px;
+    border: 1px solid white;
     
 }
 .skills-grid{
@@ -129,20 +131,41 @@ body{
     font-size: 15px;
     padding-bottom: 20px;
 }
-#contactform{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    max-width: 300px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color:#1088A6 ;
-    border-radius: 8px;
+
+#Contact{
+display: flex;
+flex-direction: column;
+gap:20px;
+align-items: center;
+background-color: #1088A6;
+max-width: 400px;
+margin: 20px auto;
+padding: 7rem 7rem 7rem 7rem;
+border-radius: 8px;
+border: 2px solid white;
+padding-top: 20px;
+
+
 }
 
-label{
+label,input, textarea{
     display: block;
     align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 200px;
+    height: 20px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    width: 75px;
+    background-color: #0a161a;
+    color: white;
+    border: 1px solid white;
+    margin: 10px auto;
+    border-radius: 8px;
 }
 
 
