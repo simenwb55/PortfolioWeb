@@ -4,6 +4,7 @@
 }
 body{
     background-color: black;
+
 }
 .header{
     position: fixed;
@@ -104,10 +105,11 @@ body{
     padding:4rem 2rem;
     margin: 0 auto;
     background:#1088A6;
-    width: 750px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     border-radius: 50px;
     border: 1px solid white;
+    min-height: 100vh;
     
 }
 .skills-grid{
@@ -131,21 +133,19 @@ body{
     font-size: 15px;
     padding-bottom: 20px;
 }
-
-#Contact{
+#contact{
+    max-width: 1200px;
+}
+.contact-container{
 display: flex;
 flex-direction: column;
 gap:20px;
 align-items: center;
 background-color: #1088A6;
-max-width: 400px;
-margin: 20px auto;
-padding: 7rem 7rem 7rem 7rem;
 border-radius: 8px;
 border: 2px solid white;
 padding-top: 20px;
-
-
+min-height: 80vh;
 }
 
 label,input, textarea{
